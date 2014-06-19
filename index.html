@@ -24,13 +24,14 @@
 
   <div class="row">
     <div class="large-6 columns" id="form-container">
-      <form>
+      <form action="/some-path" method="post" id="some-form">
         <input type="text" placeholder="an input" id="an-input" />
         <input type="text" placeholder="another input" id="another-input" />
+        <input type="submit" class="button" value="Submit" />
       </form>
-      <a href="#" class="button">1st Button</a>
-      <a href="#" class="button success">2nd Button</a>
-      <a href="#" class="button alert">3rd Button</a>
+      <a href="#" class="button" id="button-1">1st Button</a>
+      <a href="#" class="button success" id="button-2">2nd Button</a>
+      <a href="#" class="button alert" id="button-3">3rd Button</a>
     </div>
     <div class="large-6 columns">
       <div data-alert class="alert-box">
